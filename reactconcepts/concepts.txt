@@ -1,0 +1,4 @@
+The literal meaning of virtual dom here is it compares all the changes in the real dom and updates only the changes in the ui
+on the other hand web page reloads itself so it will reload completly
+fibre is the algorithm that works behind the project and updates all the ui 
+reconciliation is the recursive algorithm which decides what to be updated

@@ -1,0 +1,11 @@
+
+@tailwind utilities;
+
+/* Remove border + outline + focus ring from ALL buttons */
+button,
+button:focus,
+button:focus-visible {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
