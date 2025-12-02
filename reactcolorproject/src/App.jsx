@@ -13,6 +13,11 @@ function App() {
 
   const [color,setColor] = useState("pink")
 
+  //we used the tailwind properties and onclick method 
+  //the on click function requires a function but does not require the return value becoz of that we created a function of function 
+  
+
+
   return (
     <>
    <div className='w-full h-screen duration-500' style={{backgroundColor: color}}>

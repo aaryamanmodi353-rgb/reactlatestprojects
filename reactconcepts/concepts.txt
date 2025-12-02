@@ -2,3 +2,16 @@ The literal meaning of virtual dom here is it compares all the changes in the re
 on the other hand web page reloads itself so it will reload completly
 fibre is the algorithm that works behind the project and updates all the ui 
 reconciliation is the recursive algorithm which decides what to be updated
+
+if we are using counter function then after clicking on addval even if there are multiple setCounters but useState will execute it stagewise it will be updated once
+if we set the value of counter to counter => counter + 1 so if we are using the same function multiple times the value will get updated as per the number of functions 
+
+
+
+// the key is used for smoothness of the loop since it will not be efficient to loop through same value 
+    //for exporting large files we can create other files 
+
+    //we follow this way of making components check for these mentioned functions
+    //this is the way we can make effective components which can improve the code 
+
+    //the hook useId is used for providing unique values 
